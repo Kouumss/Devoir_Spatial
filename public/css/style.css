@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 42rem;
+  background-color: rgba(35, 32, 36, 0.74);
+  background-blend-mode: darken;
+}
+header nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: #FFFFFF;
+}
+header nav p {
+  margin: 2vh;
+  padding: 3vh;
+}
+header nav ul {
+  display: flex;
+  justify-content: end;
+}
+header nav ul li {
+  list-style-type: none;
+  font-weight: 100;
+  margin: 2vh;
+  padding: 3vh;
+}
+header div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 12vh;
+  line-height: 2rem;
+  color: #FFFFFF;
+  gap: 3vh;
+}
+header div h3 {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin: 0 30vw;
+}
+header div button {
+  width: 12vw;
+  height: 5vh;
+  margin: auto;
+  background-color: #F32854;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0.3vh;
+}
+
+.first {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #FFFFFF;
+}
+.first h2 {
+  line-height: 2rem;
+  font-size: 2rem;
+  margin-bottom: 2vh;
+}
+.first h3 {
+  font-weight: 100;
+  color: gray;
+}
+.first div {
+  margin: 10vh auto;
+}
+.first div p {
+  text-align: left;
+  margin-right: 10vw;
+  line-height: 2rem;
+}
+
+.second {
+  background-color: rgba(225, 222, 224, 0.3647058824);
+  line-height: 2rem;
+}
+.second h2 {
+  text-align: center;
+  padding-top: 12vh;
+  font-size: 2rem;
+}
+.second h3 {
+  text-align: center;
+  color: gray;
+  font-weight: 100;
+}
+.second .card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5vw;
+  grid-gap: 3vw;
+  padding-bottom: 2vh;
+}
+.second .card div {
+  background-color: white;
+  text-align: center;
+}
+.second .card div p {
+  padding: 4vh;
+}
+.second .card img {
+  width: 100%;
+  height: auto;
+}
+.second button {
+  height: 8vh;
+  width: 12vw;
+}
+.second .but {
+  display: flex;
+  justify-content: center;
+  padding: 5vh 0;
+  gap: 1.5vw;
+}
+.second .red {
+  background-color: #F32854;
+  color: #FFFFFF;
+  border: none;
+}
+.second .black {
+  background-color: #323037;
+  color: #FFFFFF;
+  border: none;
+}
+
+.third .mauris {
+  width: 80%;
+  margin: 10vh auto;
+  line-height: 3rem;
+}
+.third .mauris h3 {
+  color: gray;
+  font-weight: 100;
+  font-size: 1.8rem;
+}
+.third .mauris h2 {
+  font-size: 2.5rem;
+}
+
+.Grid {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Grid .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.6rem;
+  margin: 2vh;
+}
+.Grid .flex h3 {
+  color: gray;
+}
+.Grid .flex .pair {
+  text-align: left;
+  margin-left: 2vh;
+}
+.Grid .flex .impair {
+  text-align: right;
+  margin-right: 2vh;
+}
+.Grid .flex img {
+  border-radius: 50%;
+  border: 0.5rem solid #c0bbbe;
+  width: 9rem;
+}
+
+/*# sourceMappingURL=style.css.map */
