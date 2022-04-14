@@ -11118,11 +11118,72 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-@media (max-width: 321px) {
-  .grid {
-    grid-template-columns: 1fr !important;
-  }
+html {
+  font-size: 70%;
+  margin: 0;
+  padding: 0;
 }
+html body {
+  box-sizing: border-box;
+}
+html .Grid {
+  grid-template-columns: 1fr !important;
+}
+html .Grid .flex {
+  flex-direction: column;
+}
+html .Grid .flex .pair {
+  text-align: center;
+}
+html .Grid .flex .impair {
+  text-align: center;
+}
+html footer {
+  height: 60%;
+}
+
+nav h3, nav .h3 {
+  font-size: 80%;
+}
+nav ul {
+  flex-wrap: wrap !important;
+}
+nav ul li {
+  margin: 4vw !important;
+  padding: 0 !important;
+}
+
+.first {
+  grid-template-columns: 100% !important;
+}
+.first div {
+  padding: 0 !important;
+  margin: 3vh 0 !important;
+}
+.first div h2, .first div .h2 {
+  text-align: center;
+}
+.first div h3, .first div .h3 {
+  text-align: center;
+}
+.first div p {
+  margin: 0 5vw !important;
+  padding: 0 !important;
+}
+
+button {
+  width: 30% !important;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr !important;
+}
+.card div p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 * {
   margin: 0;
   padding: 0;
