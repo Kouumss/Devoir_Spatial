@@ -11118,6 +11118,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media (max-width: 321px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+}
 * {
   margin: 0;
   padding: 0;
